@@ -17,7 +17,7 @@
 
   "autoload": {
     "psr-4": {
-      "ItForFree\\WebClients\\": "src"
+      "ItForFree\\YiiImageResizeOnTheFly\\": "src"
     }
   },
 
