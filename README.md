@@ -1,2 +1,3 @@
-# yii-image-resize-on-the-fly
-yii, yii2 resize image on the fly and cache
+# Yii (Yii2) Image Resize  Module 
+eng: resize image (e.g. on the fly) and cache
+rus: изменяет размер изображения "на лету" и кеширует на диске версию подготовленную в соответствии с форматом.
