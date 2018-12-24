@@ -3,9 +3,9 @@
   "type": "library",
   "description": "yii yii2 resize image on the fly and cache ",
 
-  "keywords": ["php","yii", "yii2"
-    "img src", "photo", "cut image", "image"
-    "image resize and cache on the fly on load jpg png gif bpm ",          
+  "keywords": ["php","yii", "yii2",
+    "img src", "photo", "cut image", "image",
+    "image resize and cache on the fly on load jpg png gif bpm "
   ],
 
   "homepage": "http://fkn.ktu10.com/?q=iff-itforfree",
