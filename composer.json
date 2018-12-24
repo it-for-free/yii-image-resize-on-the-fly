@@ -20,6 +20,6 @@
       "ItForFree\\YiiImageResizeOnTheFly\\": "src"
     },
 
-    "files": ["src/Module/Image/functions.php"]
+    "files": ["src/functions.php"]
   }
 }
