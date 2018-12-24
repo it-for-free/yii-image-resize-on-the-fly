@@ -6,7 +6,7 @@
 
 ## Установка 
 
-[Установите пакет it-for-free/yii-extensions с помощью composer (Install package it-for-free/yii-extensions via composer)](/README.md)
+[Установите пакет it-for-free/yii-image-resize-on-the-fly с помощью composer (Install package it-for-free/yii-image-resize-on-the-fly via composer)](/README.md)
 
 ## Использование (Usage)
 
@@ -66,7 +66,7 @@ Yii::setAlias('@uploadPath', dirname(dirname(__DIR__)) . '/frontend/web/uploads'
 вашего приложения в секции `modules` пишем следующее:
 
 ```php
-use ItForFree\YiiExtensions\Yii2\Module\Image\Image;
+use ItForFree\YiiImageResizeOnTheFly\Module\Image\Image;
 ....
 ....
 
