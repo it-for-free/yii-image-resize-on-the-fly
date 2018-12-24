@@ -1,11 +1,11 @@
 <?php
 
-namespace ItForFree\YiiImageResizeOnTheFly\Module\Image\controllers;
+namespace ItForFree\YiiImageResizeOnTheFly\controllers;
 
 use Yii;
 use yii\web\Controller;
 use ItForFree\rusphp\File\Image\ImageResizer;
-use ItForFree\YiiImageResizeOnTheFly\Module\Image\Image;
+use ItForFree\YiiImageResizeOnTheFly\Image;
 
 
 /**

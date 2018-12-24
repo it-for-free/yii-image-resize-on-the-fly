@@ -1,6 +1,6 @@
 <?php
 
-namespace ItForFree\YiiImageResizeOnTheFly\Module\Image;
+namespace ItForFree\YiiImageResizeOnTheFly;
 
 /**
  * image module definition class
@@ -10,7 +10,7 @@ class Image extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'ItForFree\YiiImageResizeOnTheFly\Module\Image\controllers';
+    public $controllerNamespace = 'ItForFree\YiiImageResizeOnTheFly\controllers';
 
 
     public $baseUploadPath = '@uploadPathAlias';

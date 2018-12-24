@@ -66,7 +66,7 @@ Yii::setAlias('@uploadPath', dirname(dirname(__DIR__)) . '/frontend/web/uploads'
 вашего приложения в секции `modules` пишем следующее:
 
 ```php
-use ItForFree\YiiImageResizeOnTheFly\Module\Image\Image;
+use ItForFree\YiiImageResizeOnTheFly\Image;
 ....
 ....
 
