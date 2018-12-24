@@ -1,10 +1,10 @@
 {
-  "name": "it-for-free/php-web-clients",
+  "name": "it-for-free/yii-image-resize-on-the-fly",
   "type": "library",
   "description": "useful web clients for different sites and systems",
 
-  "keywords": ["php", "web clients", "client",
-    "trumail", "check email deliverability", "email validate check address exists"],
+  "keywords": ["php", "resize image", "resize img",
+    "photo", "cut image on the fly", "resize on the fly", "fly", "image"],
 
   "homepage": "http://fkn.ktu10.com/?q=iff-itforfree",
   "license": "MIT",
