@@ -4,7 +4,7 @@
   "description": "yii yii2 resize image on the fly and cache ",
 
   "keywords": ["php","yii", "yii2",
-    "img src", "photo", "cut image", "image"
+    "img src", "photo", "cut image", "image",
     "image resize and cache on the fly on load jpg png gif bpm "
   ],
 
