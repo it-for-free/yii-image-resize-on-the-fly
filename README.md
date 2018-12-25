@@ -6,7 +6,9 @@
 
 ## Установка 
 
-[Установите пакет it-for-free/yii-image-resize-on-the-fly с помощью composer (Install package it-for-free/yii-image-resize-on-the-fly via composer)](/README.md)
+Установка с помощью composer:
+
+composer require it-for-free/yii-image-resize-on-the-fly:~v1.0.0
 
 ## Использование (Usage)
 
@@ -24,30 +26,6 @@
 2. Параметр это формат обрезки картинки, у нас это выглядет так `&format=100x100`, 
 форматов может быть несколько, посмотреть подробную документацию можно посмотреть 
 [здесь](https://github.com/it-for-free/rusphp/blob/master/src/File/Image/README.md).
-
-
-## Использование обёртки над yii/helpers/Html::img()
-
-Общий вид функции `imgrsc()`:
-## Использование обёртки над yii/helpers (Html::img)
-
-```php
-echo imgrsc($image, $format, $options);
-```
-
-
-Функция `imgrsc()` принимает 2 обязательных параметра и один необязательный:
-1. `$image` путь к изображению относительно `@uploadPath`.
-2. `$format` формат изображения должен быть задан следующим образом посмотреть можно
-[здесь](https://github.com/it-for-free/rusphp/blob/master/src/File/Image/README.md).
-3. `$options` это родной необязательный параметр `yii/helpers/Html::img()`.
-
-Пример реального вызова:
-
-```php
-echo imgrsc($model->img, '100x100');
-```
-
 
 
 ## Конфигурирование модуля
@@ -81,3 +59,25 @@ use ItForFree\YiiImageResizeOnTheFly\Image;
 из конфигурации выше мы видим своиство публичного поля модуля о котором говорилось раньше `baseUploadPath`
 это своиство модуля нужно для работы, а вот алиас `@uploadPath` 
 должен указывать путь по которому вы сохраняете изображения, выше видно как он определен и куда ссылается.
+
+
+## Использование обёртки над yii/helpers/Html::img()
+
+Общий вид функции `imgrsc()`:
+
+```php
+echo imgrsc($path, $format, $options);
+```
+
+Функция `imgrsc()` принимает 2 обязательных параметра и один необязательный:
+1. `$path` путь к изображению относительно `@uploadPath`.
+2. `$format` формат изображения должен быть задан следующим образом посмотреть можно
+[здесь](https://github.com/it-for-free/rusphp/blob/master/src/File/Image/README.md).
+3. `$options` это родной необязательный параметр `yii/helpers/Html::img()`.
+
+Пример реального вызова:
+
+```php
+echo imgrsc($model->img, '100x100');
+```
+
