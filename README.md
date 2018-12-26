@@ -7,6 +7,7 @@
 ## Установка 
 
 Установка с помощью composer:
+
 ```shell
 composer require it-for-free/yii-image-resize-on-the-fly:~v1.0.0
 ```
